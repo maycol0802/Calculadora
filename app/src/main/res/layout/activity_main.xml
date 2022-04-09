@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:stretchColumns="0,1,2,3,4">
+
+    <TableRow>
+        <TextView android:id="@+id/dis" android:text="@string/textoInicio" android:layout_span="4" style="@style/TextoPrincipal"></TextView>
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/buttonC" android:onClick="restart" android:text="@string/buttonC"></Button>
+        <Button android:id="@+id/buttonSigno" android:onClick="signo" android:text="@string/buttonMasMenos"></Button>
+        <Button android:id="@+id/buttonPorcentage" android:onClick="porcentaje" android:text="@string/buttonPorcentaje"></Button>
+        <Button android:id="@+id/buttonDivide" android:onClick="crearExprecion" android:backgroundTint="@color/teal_200" android:text="@string/buttonDivide"></Button>
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/button7" android:onClick="crearExprecion" android:text="@string/button7"></Button>
+        <Button android:id="@+id/button8" android:onClick="crearExprecion" android:text="@string/button8"></Button>
+        <Button android:id="@+id/button9" android:onClick="crearExprecion" android:text="@string/button9"></Button>
+        <Button android:id="@+id/buttonPor" android:onClick="crearExprecion" android:backgroundTint="@color/teal_200" android:text="@string/buttonPor"></Button>
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/button4" android:onClick="crearExprecion" android:text="@string/button4"></Button>
+        <Button android:id="@+id/button5" android:onClick="crearExprecion" android:text="@string/button5"></Button>
+        <Button android:id="@+id/button6" android:onClick="crearExprecion" android:text="@string/button6"></Button>
+        <Button android:id="@+id/buttonMenos" android:onClick="crearExprecion" android:backgroundTint="@color/teal_200" android:text="@string/buttonMenos"></Button>
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/button1" android:onClick="crearExprecion" android:text="@string/button1"></Button>
+        <Button android:id="@+id/button2" android:onClick="crearExprecion" android:text="@string/button2"></Button>
+        <Button android:id="@+id/button3" android:onClick="crearExprecion" android:text="@string/button3"></Button>
+        <Button android:id="@+id/buttonMas" android:onClick="crearExprecion" android:backgroundTint="@color/teal_200" android:text="@string/buttonMas"></Button>
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/button0" android:onClick="crearExprecion" android:layout_span="2" android:text="@string/button0"></Button>
+        <Button android:id="@+id/buttonPunto" android:onClick="crearExprecion" android:text="@string/buttonPunto"></Button>
+        <Button android:id="@+id/buttonIgual" android:onClick="igual" android:backgroundTint="@color/teal_200" android:text="@string/buttonIgual"></Button>
+    </TableRow>
+</TableLayout>
